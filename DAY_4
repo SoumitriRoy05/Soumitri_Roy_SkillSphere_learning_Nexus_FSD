@@ -1,0 +1,26 @@
+SDLC(SOFTWARE DEVELOPMENT LIFECYCLE)
+
+Stages:
+  1.Requirement Analysis.
+  2.System/Functional Design
+  3.Development/Implementation
+  4.Testing.
+  5.Deployment
+  6.Maintenance
+
+FUNCTIONAL SPECIFICATION DOCUMENT
+
+UNIT TESTING: the first level of software testing where individual, isolated components of code—such as functions, methods, or classes—are verified for correctness.
+
+SERVER (SERVING RESOURCES TO OTHER):
+    1. DEV
+    2. QUALITY
+    3. PRODUCTION
+WATERFALL MODEL:
+  1. SEQUENTIAL MODEL (Requiremnet-->Desing/ Testing)
+  2. EVERY STEP IS DOCUMENTED
+  3. FIXED REQUIREMENT
+
+AGILE MODEL:
+  1. LARGE PARTS ARE BROKEN IN SMALLER PARTS
+  2. ITERATIVE IN NATURE
