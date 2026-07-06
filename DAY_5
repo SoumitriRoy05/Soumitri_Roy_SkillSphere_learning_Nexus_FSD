@@ -1,0 +1,47 @@
+SQL OPERATORS:
+    1. AND - returns a record where all conditions are true
+    2. OR - returns a record if at least one of the specified conditions evaluates to true
+    3. NOT- allows you to exclude specific data from your query results
+
+DIFFERENCE BETWEEN UNION AND UNION ALL:  
+    UNION- removes duplicate rows and returns only distinct records
+    UNION ALL- combines the result sets of two or more SELECT statements into a single, stacked output while retaining all duplicate rows
+
+INTERSECT - return only the distinct rows that are common to all queries
+
+A% --> should always start with 'A'
+%A --> have 'n' number of words before 'A' but should end with 'A'
+A_ --> consist only one letter after A
+
+WHERE -->
+    1. clause is used to filter records and extract only the rows that fulfill a specified condition
+    2. used inside 'SELECT', 'UPDATE' AND 'DELETE'
+HAVING --> 
+    1. used to filter the results of a query after data has been grouped using the GROUP BY clause
+    2. It is specifically designed to filter records based on the results of aggregate functions like SUM(), COUNT(), AVG(), MIN(), or MAX()
+
+GROUP BY--> arranges identical data into groups and collapses matching rows into summary rows
+UNION --> automatically removes duplicate rows to ensure only unique records are returned.
+
+
+
+
+
+MICROSERVICES:
+  1. Microservices is an architecture where an application is divided into small, independent services that communicate over a network. Each service handles a specific function and can be developed and deployed separately.
+  2. Entire project is divided into smaller parts and each has to work on the specified part
+  3. Communication between two microservices --> API's , through small functions
+  4. In our project connection between frontend and backend through microservices
+
+WORKING:
+The working of microservices architecture focuses on dividing the application into small, independent services that collaborate to perform different business functions.
+
+  1. Each microservice handles a particular business feature, like user authentication or product management, allowing for specialized development.
+Services interact via APIs, facilitating standardized information exchange and integration.
+  2. Each service runs independently and communicates with other services through lightweight protocols such as HTTP or messaging systems.
+  3.Requests from users are routed to the appropriate microservice, which processes the request and may interact with other services or databases to return the response.
+
+
+
+
+
